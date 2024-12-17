@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f3f4f6;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #007bff);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+header .profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .profile-details {
+    max-width: 600px;
+}
+
+header .profile-details h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .profile-details .intro {
+    margin: 10px 0 20px;
+    font-size: 1rem;
+}
+
+header .btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+header .btn:hover {
+    background: #ddd;
+}
+
+/* Section Styles */
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-grid li {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.project {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    color: #4CAF50;
+    margin: 10px 0 5px;
+}
+
+/* Resume */
+section#resume .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+section#resume .btn:hover {
+    background: #0056b3;
+}
+
+/* Contact */
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+}
